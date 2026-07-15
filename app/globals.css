@@ -65,6 +65,12 @@ section, footer {
     color: #ff5448 !important;
     border-color: #ff5448 !important;
   }
+
+  .audit-btn:hover {
+    background-color: #ffffff !important;
+    color: #ff5448 !important;
+    border-color: #ff5448 !important;
+  }
 }
 
 ::selection {

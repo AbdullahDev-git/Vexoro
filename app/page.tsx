@@ -20,7 +20,7 @@ export default function Home() {
         </nav>
 
         <div className="flex items-center">
-          <a href="#contact" className="hidden md:inline-flex h-9 items-center justify-center rounded-md border border-transparent bg-[#ff5448] px-5 text-xs font-mono font-semibold uppercase tracking-[0.24em] text-white transition hover:border-[#ff5448] hover:bg-white hover:text-[#ff5448]">
+          <a href="#contact" className="audit-btn hidden md:inline-flex h-9 items-center justify-center rounded-md border border-transparent bg-[#ff5448] px-5 text-xs font-mono font-semibold uppercase tracking-[0.24em] text-white transition hover:border-[#ff5448] hover:bg-white hover:text-[#ff5448]">
             Get an Audit
           </a>
           <MobileMenu />

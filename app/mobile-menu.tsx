@@ -69,7 +69,7 @@ export default function MobileMenu() {
           <a
             href="#contact"
             onClick={() => setOpen(false)}
-            className="flex h-13 w-full items-center justify-center rounded-md bg-[#ff5448] text-sm font-mono font-semibold uppercase tracking-[0.24em] text-white transition hover:bg-white hover:text-[#ff5448]"
+            className="audit-btn flex h-13 w-full items-center justify-center rounded-md bg-[#ff5448] text-sm font-mono font-semibold uppercase tracking-[0.24em] text-white transition"
           >
             Get an Audit
           </a>
