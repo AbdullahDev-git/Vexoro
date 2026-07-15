@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #000000;
+  --color-foreground: #ffffff;
+  --color-frame-border: #ffffff;
+  --color-accent: #ff5448;
+  --color-accent-hover: #ffffff;
+  --color-surface-black: #000000;
+  --color-surface-white: #ffffff;
+  --color-text-on-black: #ffffff;
+  --color-text-on-white: #0a0a0a;
+  --color-text-muted: rgba(255, 255, 255, 0.5);
+  --color-card-border: rgba(255, 255, 255, 0.2);
+  --color-card-border-dark: rgba(10, 10, 10, 0.2);
+
+  --font-display: "Archivo Narrow", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Public Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  --text-display: 120px;
+  --text-headline-lg: 72px;
+  --text-headline-md: 40px;
+  --text-body-lg: 20px;
+  --text-body-md: 16px;
+  --text-eyebrow: 14px;
+  --text-label: 12px;
+
+  --spacing-frame: 64px;
+  --spacing-section: 120px;
+  --spacing-gutter: 24px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section, footer {
+  content-visibility: auto;
+  contain-intrinsic-size: 500px;
+}
+
+@media (hover: hover) {
+  body {
+    cursor: none;
+  }
+
+  a, button, input, textarea, [role="button"] {
+    cursor: none;
+  }
+
+  nav a:hover,
+  nav a[href="#contact"]:hover {
+    color: #ff5448 !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+  }
+
+  section a[href="#contact"]:hover {
+    background-color: #ffffff !important;
+    color: #ff5448 !important;
+    border-color: #ff5448 !important;
+  }
+}
+
+::selection {
+  background: rgba(255, 84, 72, 0.35);
+  color: #ffffff;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+  border-radius: 0;
+}
+
+input,
+textarea {
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.pulse-dot {
+  box-shadow: 0 0 10px #ff5448, 0 0 20px #ff5448;
+  animation: pulse-opacity 2s ease-in-out infinite;
+}
+
+@keyframes pulse-opacity {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+  will-change: transform, opacity;
+}
+
+.reveal:nth-child(2) { transition-delay: 0.1s; }
+.reveal:nth-child(3) { transition-delay: 0.2s; }
+.reveal:nth-child(4) { transition-delay: 0.3s; }
+.reveal:nth-child(5) { transition-delay: 0.4s; }
+.reveal:nth-child(6) { transition-delay: 0.5s; }
+
+.reveal.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
