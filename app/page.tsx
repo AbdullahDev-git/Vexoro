@@ -93,14 +93,20 @@ export default function Home() {
 
             <div className="w-full max-w-md border border-black/20 p-8">
               <span className="font-mono text-sm font-semibold uppercase tracking-[0.05em] text-[#0a0a0a]">03</span>
-              <h3 className="mt-6 font-display text-2xl font-black uppercase tracking-[-0.01em] text-[#0a0a0a]">AI Agents</h3>
+              <h3 className="mt-6 font-display text-2xl font-black uppercase tracking-[-0.01em] text-[#0a0a0a]">Meta Ads</h3>
               <div className="mt-5 h-0.5 w-12 bg-[#ff5448]" />
               <p className="mt-6 font-body text-sm leading-7 text-[#303030]">
-                Custom AI agents to automate customer support, bookings, and business workflows.
+                Data-driven Facebook and Instagram ad campaigns that reach the right audience and turn clicks into paying customers.
               </p>
-              <span className="mt-8 inline-flex border border-[#ff5448] px-3 py-1 text-xs font-mono uppercase tracking-[0.28em] text-[#ff5448]">
-                Coming soon
-              </span>
+            </div>
+
+            <div className="w-full max-w-md border border-black/20 p-8">
+              <span className="font-mono text-sm font-semibold uppercase tracking-[0.05em] text-[#0a0a0a]">04</span>
+              <h3 className="mt-6 font-display text-2xl font-black uppercase tracking-[-0.01em] text-[#0a0a0a]">SEO</h3>
+              <div className="mt-5 h-0.5 w-12 bg-[#ff5448]" />
+              <p className="mt-6 font-body text-sm leading-7 text-[#303030]">
+                Technical and on-page optimization that pushes your business to the top of search results where customers are already looking.
+              </p>
             </div>
           </div>
         </div>
@@ -116,8 +122,10 @@ export default function Home() {
           </h2>
 
           <div className="reveal mt-14 grid gap-6 md:grid-cols-2">
-            <article className="reveal border border-transparent transition hover:border-[#ff5448]">
-              <div className="h-64 bg-[url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'720\' height=\'400\' viewBox=\'0 0 720 400\'%3E%3Crect width=\'720\' height=\'400\' fill=\'%23101010\'/%3E%3Cpath d=\'M0 260 Q180 220 360 260 T720 260 V400 H0 Z\' fill=\'%23ffffff11\'/%3E%3C/svg%3E')] bg-cover bg-center" />
+            <a href="https://www.orlevepressons.com/" target="_blank" rel="noopener noreferrer" className="reveal block border border-transparent transition">
+              <div className="w-full bg-[#101010]">
+                <img src="/orleve.png" alt="Orlev Pressons" className="block w-full" />
+              </div>
               <div className="border-t border-white/20 p-8">
                 <span className="font-mono text-xs uppercase tracking-[0.32em] text-[#ff5448]">E-Commerce</span>
                 <h3 className="mt-3 font-display text-2xl font-black uppercase tracking-[-0.01em] text-white">
@@ -128,21 +136,23 @@ export default function Home() {
                   Premium press-on nails brand — modern, conversion-focused storefront built from scratch.
                 </p>
               </div>
-            </article>
+            </a>
 
-            <article className="reveal border border-transparent transition hover:border-[#ff5448]">
-              <div className="h-64 bg-[url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'720\' height=\'400\' viewBox=\'0 0 720 400\'%3E%3Crect width=\'720\' height=\'400\' fill=\'%23101010\'/%3E%3Cpath d=\'M0 240 Q180 200 360 240 T720 240 V400 H0 Z\' fill=\'%23ffffff11\'/%3E%3C/svg%3E')] bg-cover bg-center" />
+            <a href="https://dwichos.fr/" target="_blank" rel="noopener noreferrer" className="reveal block border border-transparent transition">
+              <div className="w-full bg-[#101010]">
+                <img src="/dwichos.png" alt="Dwichos" className="block w-full" />
+              </div>
               <div className="border-t border-white/20 p-8">
-                <span className="font-mono text-xs uppercase tracking-[0.32em] text-[#ff5448]">Concept</span>
+                <span className="font-mono text-xs uppercase tracking-[0.32em] text-[#ff5448]">Food & Beverage</span>
                 <h3 className="mt-3 font-display text-2xl font-black uppercase tracking-[-0.01em] text-white">
-                  Export Catalog Concept{" "}
+                  Dwichos{" "}
                   <span className="inline-block text-[#ff5448]">↗</span>
                 </h3>
                 <p className="mt-3 font-body text-sm leading-7 text-white/60">
-                  Buyer-facing product catalog concept for manufacturers, built to establish trust with international buyers.
+                  A bold digital presence for a food brand — built to showcase menu items and drive direct orders.
                 </p>
               </div>
-            </article>
+            </a>
           </div>
         </div>
       </section>
@@ -157,16 +167,16 @@ export default function Home() {
               Your business deserves better than a template.
             </h2>
             <p className="reveal mt-6 font-body text-base leading-8 text-[#303030] md:text-lg md:leading-9">
-              Whether you&apos;re an exporter whose buyers check you out before replying to an inquiry, or a restaurant tired of repeating menus every time prices change — we build for the business you actually run, not a generic template pretend to fit everyone.
+              Whether you need a high-converting website, a smart digital menu, targeted Meta Ads, or SEO that actually ranks — we build solutions tailored to your business, not one-size-fits-all templates.
             </p>
             <div className="reveal mt-8 grid gap-4 sm:grid-cols-2">
               <div className="p-6">
-                <h3 className="font-display text-lg font-black uppercase text-[#0a0a0a]">Built for your industry</h3>
-                <p className="mt-3 font-body text-sm leading-7 text-[#303030]">Export catalogs, digital menus, and tailored systems built to earn your customers&apos; trust.</p>
+                <h3 className="font-display text-lg font-black uppercase text-[#0a0a0a]">Built for your goals</h3>
+                <p className="mt-3 font-body text-sm leading-7 text-[#303030]">Websites, menus, ad campaigns, and search strategies — each built to match your specific business needs and audience.</p>
               </div>
               <div className="p-6">
                 <h3 className="font-display text-lg font-black uppercase text-[#0a0a0a]">No disappearing act</h3>
-                <p className="mt-3 font-body text-sm leading-7 text-[#303030]">Clear communication, dependable timelines, and support that continues after launch.</p>
+                <p className="mt-3 font-body text-sm leading-7 text-[#303030]">Clear communication, dependable timelines, and ongoing support that continues well after launch.</p>
               </div>
             </div>
 
@@ -174,9 +184,26 @@ export default function Home() {
 
             <div className="reveal border border-[#ff5448]/80 p-8">
             <div className="border border-[#ff5448]/80 p-6">
-              <div className="h-64 bg-[url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'720\' height=\'540\' viewBox=\'0 0 720 540\'%3E%3Crect width=\'720\' height=\'540\' fill=\'%23f0f0f0\'/%3E%3Cpath d=\'M0 400 Q180 320 360 380 T720 400 V540 H0 Z\' fill=\'%2300000008\'/%3E%3C/svg%3E')] bg-cover bg-center" />
-              <div className="mt-6 border-2 border-[#ff5448] bg-white p-5">
-                <span className="font-mono text-xs font-bold uppercase tracking-[0.2em] text-[#ff5448]">FREE WEBSITE AUDIT — NO COST, NO OBLIGATION</span>
+              <div className="border-2 border-[#ff5448] bg-white p-5">
+                <span className="font-mono text-xs font-bold uppercase tracking-[0.2em] text-[#ff5448]">FREE DIGITAL AUDIT — NO COST, NO OBLIGATION</span>
+              </div>
+              <div className="mt-6 space-y-4">
+                <div className="flex items-center gap-3">
+                  <span className="h-1.5 w-1.5 bg-[#ff5448]" />
+                  <span className="font-mono text-xs uppercase tracking-[0.15em] text-[#0a0a0a]">Website Performance</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="h-1.5 w-1.5 bg-[#ff5448]" />
+                  <span className="font-mono text-xs uppercase tracking-[0.15em] text-[#0a0a0a]">Ad Campaign Review</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="h-1.5 w-1.5 bg-[#ff5448]" />
+                  <span className="font-mono text-xs uppercase tracking-[0.15em] text-[#0a0a0a]">SEO Health Check</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="h-1.5 w-1.5 bg-[#ff5448]" />
+                  <span className="font-mono text-xs uppercase tracking-[0.15em] text-[#0a0a0a]">Menu System Analysis</span>
+                </div>
               </div>
             </div>
           </div>
@@ -258,9 +285,7 @@ export default function Home() {
       <footer className="flex flex-col gap-4 border-t border-white/20 px-8 py-8 text-sm md:flex-row md:items-center md:justify-between md:px-16">
         <p className="reveal font-body text-white/50">&copy; 2026 Vexoro Digital. All rights reserved.</p>
         <div className="reveal flex flex-wrap items-center gap-6">
-          <a href="#" className="font-mono text-xs uppercase tracking-[0.2em] text-white transition hover:text-[#ff5448]">Privacy Policy</a>
-          <a href="#" className="font-mono text-xs uppercase tracking-[0.2em] text-white transition hover:text-[#ff5448]">LinkedIn</a>
-          <a href="#" className="font-mono text-xs uppercase tracking-[0.2em] text-white transition hover:text-[#ff5448]">Behance</a>
+          <a href="https://www.instagram.com/vexoropk/" target="_blank" rel="noopener noreferrer" className="font-mono text-xs uppercase tracking-[0.2em] text-white transition hover:text-[#ff5448]">Instagram</a>
         </div>
       </footer>
       </ScrollReveal>
